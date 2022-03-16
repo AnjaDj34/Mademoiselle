@@ -1,0 +1,28 @@
+
+.lead-page-section{
+background-repeat: no-repeat;
+   background-size: cover;
+   padding: 120px 0;
+   h1{
+       font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 1rem;
+   }
+}
+
+@media(min-width:576px){
+    .lead-page-section{
+ padding: 200px 0;
+ h1{
+     font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+ }
+}
+}
+
+@media(min-width:992px){
+    .lead-page-section{
+ padding: 300px 0;
+}
+}

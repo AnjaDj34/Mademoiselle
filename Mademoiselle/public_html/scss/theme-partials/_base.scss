@@ -9,3 +9,11 @@ body{
     font-family: $base-font;
     font-weight: $font-weight-light;
 }
+
+h1{
+    font-family: $bodoni;
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+    color: $white;
+}
