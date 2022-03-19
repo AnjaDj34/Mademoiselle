@@ -1,4 +1,4 @@
-$navbar-toggler-bg: $nude;
+$navbar-toggler-bg: $primary;
 
 header{
     padding:27px 0; 
@@ -11,7 +11,7 @@ header{
             width: 30px;
             height: 3px;
             margin-bottom: 5px;
-            background-color: $nude;
+            background-color: $primary;
            
 
             &:last-of-type{
@@ -31,7 +31,7 @@ border-bottom: 1px solid $white;
 
             &:hover,
                 &.active{
-                border-bottom: 1px solid $nude;
+                border-bottom: 1px solid $primary;
             }
         }
     }
