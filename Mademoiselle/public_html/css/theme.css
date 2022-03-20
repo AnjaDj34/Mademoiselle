@@ -156,6 +156,7 @@ sup {
 }
 
 a {
+  color: #ECD9D9;
   text-decoration: none;
   background-color: transparent;
 }
@@ -9784,6 +9785,10 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
   .service-section-text h3 {
     padding-bottom: 36px !important;
   }
+}
+
+.lead-page-section .caption {
+  padding-top: 50px;
 }
 
 .professionals-section {
