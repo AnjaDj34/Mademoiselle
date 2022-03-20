@@ -1741,7 +1741,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(30, 30, 30, 0.8);
   opacity: 1;
 }
 
@@ -9729,7 +9729,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .services-section {
-  padding-bottom: 56px;
+  padding: 88px 0 56px;
 }
 
 .services-section .services-section-title:after {
@@ -9792,6 +9792,15 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 
 .lead-page-section .caption {
   padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .service-single-section {
+    margin: 170px 0 181px;
+  }
+  .service-single-section .service-sngle-subtitle {
+    margin-bottom: 35px !important;
+  }
 }
 
 .professionals-section {
@@ -9895,6 +9904,7 @@ footer .copyright a {
   font-size: 30px;
   letter-spacing: 5px;
   line-height: 45px;
+  margin-top: 70px;
 }
 
 .contact-section .form-control {
@@ -9906,7 +9916,7 @@ footer .copyright a {
 }
 
 .contact-section textarea.form-control {
-  height: 350px !important;
+  height: 150px !important;
   resize: none;
 }
 
@@ -9915,8 +9925,21 @@ footer .copyright a {
   font-size: 1.3rem;
 }
 
+.contact-section .contact-map {
+  position: absolute;
+  right: 0;
+  top: 184px;
+  width: 40%;
+  height: 55%;
+  margin-bottom: 80px;
+}
+
 .contact-section .info-section {
   padding: 63px 0;
+}
+
+.contact-section .info-section a {
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */

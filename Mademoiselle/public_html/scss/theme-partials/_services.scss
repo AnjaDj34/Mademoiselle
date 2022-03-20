@@ -1,5 +1,5 @@
 .services-section{
-    padding-bottom: 56px;
+    padding:88px 0 56px;
     
     .services-section-title:after{
     content: '';
@@ -69,4 +69,19 @@
     .caption{
         padding-top: 50px;
     }
+}
+
+
+//service-single
+
+
+
+@media(min-width:768px){
+    .service-single-section{
+    margin: 170px 0 181px;
+    
+    .service-sngle-subtitle{
+        margin-bottom: 35px !important;
+    }
+}
 }

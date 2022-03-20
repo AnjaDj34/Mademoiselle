@@ -1,3 +1,5 @@
+$link-text: #1E1E1E;
+
 .contact-section{
     
     padding: 110px 0 !important;
@@ -6,6 +8,7 @@
         font-size: 30px;
   letter-spacing: 5px;
   line-height: 45px;
+  margin-top: 70px;
     }
     
     .form-control{
@@ -17,7 +20,7 @@
     }
     
     textarea.form-control{
-        height: 350px !important;
+        height: 150px !important;
         resize: none;
     }
     
@@ -26,7 +29,20 @@
         font-size: 1.3rem;
     }
     
+    .contact-map{
+        position: absolute;
+    right: 0;
+    top:184px;
+    width: 40%;
+    height: 55%;
+    margin-bottom: 80px;
+    }
+    
     .info-section{
         padding: 63px 0;
+        
+        a{
+            color: $link-text;
+        }
     }
 }
