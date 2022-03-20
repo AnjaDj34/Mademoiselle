@@ -24,8 +24,22 @@ $(document).ready(function(){
     });
     animation();
 
-    
-    
+    if($('.professional-slider').length > 0){
+        $(".professional-slider").owlCarousel({
+            
+            loop:true,
+            autoplay:true,
+            staggePadding:0,
+             responsive:{
+                0:{
+                    items:1,
+                    margin:0
+                }
+            }
+            
+           });
+    }
+   
     
     
 });
