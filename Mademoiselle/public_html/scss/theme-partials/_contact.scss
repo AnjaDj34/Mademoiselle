@@ -1,0 +1,32 @@
+.contact-section{
+    
+    padding: 110px 0 !important;
+    
+    .contact-title{
+        font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 45px;
+    }
+    
+    .form-control{
+        background-color: rgba(#253D61, 0.02);
+        border:none;
+        height: 50px !important;
+        line-height: 50px;
+        padding: 0 10px;
+    }
+    
+    textarea.form-control{
+        height: 350px !important;
+        resize: none;
+    }
+    
+    .error-msg *{
+        color:$danger;
+        font-size: 1.3rem;
+    }
+    
+    .info-section{
+        padding: 63px 0;
+    }
+}

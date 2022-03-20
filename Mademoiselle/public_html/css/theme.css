@@ -9685,7 +9685,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .latest-trends-section {
-  padding: 35px 0 56px;
+  padding: 35px 0;
 }
 
 .latest-trends-section .latest-trends-title:after {
@@ -9700,8 +9700,9 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 
 .latest-trends-section .latest-trends-text {
   padding: 22px 18px 57px !important;
-  top: 160px;
-  left: 50px;
+  width: 90%;
+  margin: -90px auto 0;
+  background-color: white;
 }
 
 .latest-trends-section .latest-trends-text a {
@@ -9715,7 +9716,9 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .latest-trends-section .latest-trends-text a h6 {
+  font-size: 1.6rem;
   line-height: 2.4rem;
+  height: 4.8rem;
   font-weight: 500;
 }
 
@@ -9726,7 +9729,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .services-section {
-  padding: 35px 0 56px;
+  padding-bottom: 56px;
 }
 
 .services-section .services-section-title:after {
@@ -9792,7 +9795,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .professionals-section {
-  padding: 111px 0 100px;
+  padding-bottom: 100px;
 }
 
 .professionals-section .professionals-section-title:after {
@@ -9882,6 +9885,38 @@ footer .copyright {
 
 footer .copyright a {
   color: #1E1E1E;
+}
+
+.contact-section {
+  padding: 110px 0 !important;
+}
+
+.contact-section .contact-title {
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.contact-section textarea.form-control {
+  height: 350px !important;
+  resize: none;
+}
+
+.contact-section .error-msg * {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+.contact-section .info-section {
+  padding: 63px 0;
 }
 
 /*# sourceMappingURL=theme.css.map */

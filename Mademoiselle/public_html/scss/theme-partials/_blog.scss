@@ -1,5 +1,5 @@
 .latest-trends-section{
-    padding: 35px 0 56px;
+    padding: 35px 0 ;
     
     .latest-trends-title:after{
     content: '';
@@ -14,9 +14,9 @@
     
     .latest-trends-text{
       padding: 22px 18px 57px !important;
-        top:160px ;
-        left:50px;
-
+       width: 90% ;
+           margin: -90px auto 0;
+           background-color: white;
     
       a{
         color: $gray-900;  
@@ -27,7 +27,9 @@
             text-decoration: none;
         }
         h6{
+            font-size: 1.6rem;
             line-height: 2.4rem;
+            height: 4.8rem;
             font-weight: $font-weight-medium;
        
         }
