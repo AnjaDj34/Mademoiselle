@@ -1,4 +1,6 @@
 $link-text: #1E1E1E;
+$link-color: #1E1E1E;
+$contact-text: $link-color;
 
 .contact-section{
     
@@ -34,15 +36,18 @@ $link-text: #1E1E1E;
     right: 0;
     top:184px;
     width: 40%;
-    height: 55%;
+    height: 60%;
     margin-bottom: 80px;
     }
     
     .info-section{
         padding: 63px 0;
-        
-        a{
-            color: $link-text;
-        }
+        font-size: 2.4rem !important;
+       
+        .info-phone,
+        .info-email{
+            color: $contact-text;
+            
+       }
     }
 }

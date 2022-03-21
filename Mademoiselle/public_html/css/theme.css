@@ -156,13 +156,13 @@ sup {
 }
 
 a {
-  color: #ECD9D9;
+  color: #1E1E1E;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d3a6a6;
+  color: black;
   text-decoration: underline;
 }
 
@@ -2757,12 +2757,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ECD9D9;
+  color: #1E1E1E;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #d3a6a6;
+  color: black;
   text-decoration: underline;
 }
 
@@ -4561,14 +4561,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ECD9D9;
+  color: #1E1E1E;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #d3a6a6;
+  color: black;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9930,16 +9930,83 @@ footer .copyright a {
   right: 0;
   top: 184px;
   width: 40%;
-  height: 55%;
+  height: 60%;
   margin-bottom: 80px;
 }
 
 .contact-section .info-section {
   padding: 63px 0;
+  font-size: 2.4rem !important;
 }
 
-.contact-section .info-section a {
+.contact-section .info-section .info-phone,
+.contact-section .info-section .info-email {
   color: #1E1E1E;
+}
+
+.blog-single-section {
+  padding: 100px 0 30px;
+}
+
+.blog-single-section span {
+  font-family: "Bodoni";
+  font-size: 1.4rem;
+}
+
+.blog-single-section .date-published {
+  font-style: italic !important;
+}
+
+.blog-single-content {
+  padding-bottom: 60px;
+}
+
+.blog-single-content p {
+  margin-bottom: 2rem;
+}
+
+.blog-single-content p img {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-single-content .blog-tags .tag-title {
+  margin-top: 4.1rem;
+}
+
+.blog-single-content .blog-tags p {
+  font-family: "Bodoni";
+  font-style: italic;
+}
+
+.blog-single-content .blog-tags .tags {
+  font-family: "Bodoni";
+}
+
+.blog-single-content .blog-tags .tags a {
+  padding: 5px 40px;
+}
+
+@media (min-width: 992px) {
+  .blog-single-section {
+    padding: 165px 0 97px;
+  }
+  .blog-single-content {
+    padding-bottom: 270px;
+  }
+  .blog-single-content p {
+    margin-bottom: 2rem;
+  }
+  .blog-single-content p img {
+    margin-bottom: 5.2rem;
+    margin-top: 5.2rem;
+  }
+  .blog-single-content .blog-tags .tag-title {
+    margin-top: 4.1rem;
+  }
+  .blog-single-content .blog-tags .tags a {
+    padding: 5px 40px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
