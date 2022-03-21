@@ -1,0 +1,32 @@
+.latest-trend-items{
+    input{
+        font-style: italic;
+        font-family: $bodoni;
+        padding: 3rem;
+    }
+    span{
+        top:2%;
+        right: 0;
+        .shearch-icon{
+            width: 40%;
+        }  
+    }
+}
+
+@media(min-width:768px){
+    .latest-trends-section{
+    
+    .about-title{
+            margin-bottom: 5rem;
+        }
+       
+        .latest-trend-items{
+        
+            span{
+        top:2.5% !important;
+        right: 0;
+        
+        }
+}
+}
+}

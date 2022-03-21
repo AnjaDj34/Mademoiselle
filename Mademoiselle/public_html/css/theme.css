@@ -9729,7 +9729,7 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
 }
 
 .services-section {
-  padding: 88px 0 56px;
+  padding-bottom: 56px;
 }
 
 .services-section .services-section-title:after {
@@ -9897,7 +9897,7 @@ footer .copyright a {
 }
 
 .contact-section {
-  padding: 110px 0 !important;
+  padding: 50px 0 !important;
 }
 
 .contact-section .contact-title {
@@ -9942,6 +9942,12 @@ footer .copyright a {
 .contact-section .info-section .info-phone,
 .contact-section .info-section .info-email {
   color: #1E1E1E;
+}
+
+@media (min-width: 768px) {
+  .contact-section {
+    padding: 110px 0 !important;
+  }
 }
 
 .blog-single-section {
@@ -10006,6 +10012,31 @@ footer .copyright a {
   }
   .blog-single-content .blog-tags .tags a {
     padding: 5px 40px;
+  }
+}
+
+.latest-trend-items input {
+  font-style: italic;
+  font-family: "Bodoni";
+  padding: 3rem;
+}
+
+.latest-trend-items span {
+  top: 2%;
+  right: 0;
+}
+
+.latest-trend-items span .shearch-icon {
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .latest-trends-section .about-title {
+    margin-bottom: 5rem;
+  }
+  .latest-trends-section .latest-trend-items span {
+    top: 2.5% !important;
+    right: 0;
   }
 }
 
